@@ -16,7 +16,7 @@ export class AppComponent {
  tokenJWT = '{ "token":""}';
 
  constructor(private http: HttpClient) {
- this.apiURL = 'http://localhost:3000';
+ this.apiURL = 'projetobranqs-production.up.railway.app';
  this.READ_tarefas();
 }
 CREATE_tarefa(descricaoNovaTarefa: string) {
